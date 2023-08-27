@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .col1{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  .vertical {
+    border-left: 2px solid rgb(182, 181, 181);
+    height: 600px;
+    position:absolute;
+    left: 45%;
+  }
+  input[type="text"] {
+    width:100px;
+    height:30px;
+    margin-left:2px;
+  
+  }
+  input[type="email"] {
+    width:200px;
+    height:30px;
+    margin-left:2px;
+  
+  }
+  input[type="number"] {
+    width:200px;
+    height:30px;
+    margin-left:2px;
+  
+  }
+  #newone[type="number"] {
+    width:200px;
+    height:30px;
+    margin-left:2px;
+  
+  }
+  input[type=radio] {
+    font: inherit;
+   
+    color:black;
+    width: 1.15em;
+    height: 1.15em;
+    border: 6em black;
+    border-radius: 100%
+    
+  }
+  
+   
+ 
+  body{
+    font-size: 20px;
+  }
+  span{
+    padding:40px;
+  text-align:right
+  }
+  #newone{
+    padding:100px;
+    text-align: center;
+  }
+  .new1{
+    padding:100px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADDTWONUM</title>
+    <style>
+        .contain{
+            background-color: #c6c0ba;
+            width: 120vmin;
+            height: 40vmin;
+            max-width: 37.5em;
+            padding: 3em 2.5em;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            border-radius: 0.62em;
+            box-shadow: 0 1.2em 2.5em rgba(0, 21, 44, 0.18);
+          }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <h1>Addition of Two numbers</h1>
+        Number1<input type="number" id="num1" placeholder="Enter number1">
+        <br><br>
+        Number1<input type="number" id="num2" placeholder="Enter number2">
+        <br><br>
+        <button onclick="add()">Add</button>
+        <br><br>
+        <div>Sum = <input id="answer"></div>
+    </div>
+   <script>
+    function add()
+    {
+        let num1,num2,sum;
+        num1 = parseInt(document.getElementById("num1").value);
+        num2 = parseInt(document.getElementById("num2").value);
+        sum = num1 + num2;
+        document.getElementById("answer").value = `${sum}`;
+        
+    }
+    
+   </script>
+</body>
+</html>
